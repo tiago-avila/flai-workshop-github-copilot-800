@@ -11,7 +11,6 @@ from .serializers import (
     WorkoutSerializer
 )
 
-
 @api_view(['GET'])
 def api_root(request, format=None):
     """
